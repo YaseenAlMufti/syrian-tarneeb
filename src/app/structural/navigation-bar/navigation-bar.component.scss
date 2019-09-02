@@ -1,0 +1,17 @@
+@import '../../../assets/scss/variables';
+
+.navbar {
+    background-color: map-get($colors, universal-black);
+    display: flex;
+    .title {
+        color: map-get($colors, universal-blue);
+        cursor: default;
+    }
+    .nav-links {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .left-links {
+        flex: 1 1 auto;
+    }
+}

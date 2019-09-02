@@ -1,0 +1,19 @@
+@import '../../assets/scss/variables';
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    .card {
+        min-width: 40%;
+        background: map-get($colors, universal-black);
+        color: rgb(218, 214, 214);
+        font-size: 20px;
+    }
+    th {
+        border-bottom: 1px solid rgb(218, 214, 214);
+        margin-bottom: 10px;
+    }
+    input {
+        text-align: center;
+    }
+}
